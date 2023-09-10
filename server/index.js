@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use("/admin", adminRouter);
 app.use("/user", userRouter);
-console.log("test");
+console.log("hello");
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
 // mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
